@@ -1,0 +1,5 @@
+{
+  "parent": "mekanism:item/bucket",
+  "loader": "forge:bucket",
+  "fluid": "mekanism:hydrogen"
+}

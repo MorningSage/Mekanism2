@@ -1,31 +1,54 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "mekanism",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Mekanism",
+  "description": "This is a very WIP Mekanism port to Fabric.",
   "authors": [
-    "Me!"
+    "MorningSage"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/MorningSage/Mekanism2"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/mekanism/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "mekanism.common.Mekanism"
+    ],
+    "client": [
+      "mekanism.client.MekanismClient"
+    ],
+    "cardinal-components": [
+      "mekanism.common.capabilities.Capabilities"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mekanism.mixins.json"
   ],
 
+  "custom": {
+    "cardinal-components": [
+      "mekanism:gas_handler",
+      "mekanism:infusion_handler",
+      "mekanism:pigment_handler",
+      "mekanism:slurry_handler",
+      "mekanism:heat_handler",
+      "mekanism:strict_energy_handler",
+      "mekanism:configurable",
+      "mekanism:alloy_interaction",
+      "mekanism:config_card_access",
+      "mekanism:evaporation_solar",
+      "mekanism:laser_receptor",
+      "mekanism:laser_dissipation",
+      "mekanism:radiation_shielding",
+      "mekanism:radiation_entity"
+    ]
+  },
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",

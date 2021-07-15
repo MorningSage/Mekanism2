@@ -1,0 +1,7 @@
+{
+  "parent": "mekanism:item/default",
+  "textures": {
+    "base": "minecraft:item/bucket",
+    "fluid": "mekanism:item/mask/bucket_fluid"
+  }
+}
