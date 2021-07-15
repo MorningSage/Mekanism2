@@ -1,6 +1,6 @@
 # Mekanism Fabric
 
-This is the placeholder for the Mekanism port to Fabric 1.17.  Note that several things need to happen before Mekanism can fully be ported.
+This is just a playground to test small additions to Fabric for the Mekanism Mod.  Most of the mod's content is not added...  As I port and want to test Fabric's way's of doing things, this is where I do it.  Code is likely to change, have bugs, and possibly copies of other people's code without crediting them just to get things to temporarily work.  It is not a reflection of what the final mod will look like. 
 
 ## Setup
 
