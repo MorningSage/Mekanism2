@@ -1,4 +1,6 @@
-# Fabric Example Mod
+# Mekanism Fabric
+
+This is the placeholder for the Mekanism port to Fabric 1.17.  Note that several things need to happen before Mekanism can fully be ported.
 
 ## Setup
 
